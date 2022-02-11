@@ -59,6 +59,29 @@
     flex: 5;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
+    padding: 20px   ;
     border: 2px solid brown;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 320  px;
+    background: #eee;
+}
+
+.form-control {
+    margin-top: 16px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.grupo {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
